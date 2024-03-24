@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>My website</title>
+<style>
+ table{
+ border-collapse: collapse;
+width: 100%;
+     }
+td, th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  }
+h1{
+color: orange;
+}
+h2,h3 {
+color: chocolate;
+}
+body {
+ background-color: #f0f8ff;
+}
+</style>
+</head>
+<body>
+<h1> Educational Qualifications</h1>
+
+<table>
+<tr>
+<th>Board</th>
+<th>Year of Passing</th>
+<th>Name of institute</th>
+<th>Percenatge of marks</th>
+</tr>
+<tr>
+<td>Intermediate(Class 12)</td>
+<td>2021</td>
+<td>Mothers' International School Madhupur(CBSE)</td>
+<td>94.4%</td>
+</tr>
+<tr>
+<td>Matric(Class 10)</td>
+<td>2019</td>
+<td>N.E.L.C DON BOSCO SCHOOL,DUMKA(ICSE)</td>
+<td>90%</td>
+</tr>
+</table>
+<h2>Unordered list</h2>
+<ul>
+<li>Home</li>
+<li>About</li>
+<li>Contact Us</li>
+</ul>
+
+<h2>Unordered list</h2>
+<ol>
+<li>Home</li>
+<li>About</li>
+<li>Contact Us</li>
+</ol>
+<a href="https://www.google.com">
+<img src="C:\Users\gupta\OneDrive\Pictures\Screenshots\ss.png" alt="pic">
+</a>
+
+<h2>Image map</h2>
+<img src="C:\Users\gupta\OneDrive\Pictures\Screenshots\img.png" alt="" usemap="#mymap">
+<map name= "mymap">
+<area shape ="rect" coords="48,38,582,336" href="C:\Users\gupta\OneDrive\Pictures\Screenshots\login.png" alt="">
+</map>
+
+<h2>Audio and Video</h2>
+<audio controls>
+<source src="" type="">
+</audio>
+
+<video controls>
+<source src="" type="">
+</video>
+
+
+</body>
+</html>

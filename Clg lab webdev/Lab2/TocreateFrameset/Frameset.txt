@@ -1,0 +1,19 @@
+
+<html>
+
+   <head>
+      <title>HTML Frameset</title>
+   </head>
+	
+   <frameset rows = "10%,20%,10%">
+      <frame name = "header" src = "./header.html" />
+      <frame name = "navigation" src = "./navigation.html" />
+      <frame name = "content" src = "./content.html" />
+   
+      <noframes>
+         <body>Your browser does not support frames.</body>
+      </noframes>
+      
+   </frameset>
+   
+</html>

@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>My website</title>
+<style>
+ table{
+ border-collapse: collapse;
+width: 100%;
+     }
+td, th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  }
+h1{
+color: orange;
+}
+h2,h3 {
+color: chocolate;
+}
+body {
+ background-color: pink;
+}
+</style>
+</head>
+<body>
+<h1> Educational Qualifications</h1>
+
+<table>
+<tr>
+<th>Board</th>
+<th>Year of Passing</th>
+<th>Name of institute</th>
+<th>Percenatge of marks</th>
+</tr>
+<tr>
+<td>Intermediate(Class 12)</td>
+<td>2021</td>
+<td>Mothers' International School Madhupur(CBSE)</td>
+<td>94.4%</td>
+</tr>
+<tr>
+<td>Matric(Class 10)</td>
+<td>2019</td>
+<td>N.E.L.C DON BOSCO SCHOOL,DUMKA(ICSE)</td>
+<td>90%</td>
+</tr>
+</table>
+<h2>Unordered list</h2>
+<ul>
+<li>Home</li>
+<li>About</li>
+<li>Contact Us</li>
+</ul>
+
+<h2>Unordered list</h2>
+<ol>
+<li>Home</li>
+<li>About</li>
+<li>Contact Us</li>
+</ol>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Details Entry Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 12px;
+
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="connect.php" method="POST">
+        <h2>Student Details Entry Form</h2>
+
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" value=""><br>
+
+        <label for="rollNumber">Roll Number:</label><br>
+        <input type="text" id="rollNumber" name="rollNumber" value=""><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" value="">
+
+        <label for="course">Course:</label><br>
+        <select id="course" name="course">
+            <option value="computerScience">Computer Science</option>
+            <option value="biology">Biology</option>
+            <option value="physics">Physics</option>
+            <option value="math">Mathematics</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>
